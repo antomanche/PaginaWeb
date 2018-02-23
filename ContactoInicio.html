@@ -1,0 +1,112 @@
+<!DOCTYPE>
+<html>
+<head>
+	<title> BCON</title>
+	<meta charset="utf-8">
+	<link  rel="stylesheet" type="text/css" href="Bcon.css">
+	
+
+
+</head>
+<body background="Fotos/fondo3.jpg">
+	<nav class="navbar" id="top"> 
+
+   	 	<div class="inner">
+        <a class="entrar2" href="Index.html"><b class="banner">BIENVENIDO A BCON </a>
+          
+          &nbsp|&nbsp 
+          
+
+        <a href="Index.html"><b class="banner">SALIR</b></a>
+      </div>
+
+  </nav>
+
+
+  
+
+<div class="logo">
+		<img class="logob" src="Fotos/prueba2.png">	
+</div>
+
+<!--<div class="emblema">
+<b class="emblema"><br><br>&nbsp &nbspBCON Business Consulting<br>
+“Todo es posible en nuestras manos”</b></div>-->
+
+<div class="capapadre8">
+
+	<button onclick="topFunction()" id="myBtn" title="Go to top"><b>↿↾</b></button>
+
+	<div class="capamenu">
+
+		<a href="InicioSesion.html"> <div class="inicio"><br> &nbsp<b class="inicio">INICIO</b></div> </a>
+		<a href="AreaInicio.html"><div class="area"><br><b class="area">AREA RRHH</b></div></a>
+		<a href="ServiciosInicio.html"><div class="servicios"><br> &nbsp<b class="servicios">NUESTROS SERVICIOS</b></div></a>
+		<a href="ConsultoriaInicio.html"><div class="conocenos"><br><b class="conocenos">CONSULTORIA LOGISTICA</b></div></a>
+		<a href="ContactoInicio.html"><div class="consultoria"><br><b class="consultoria">CONTACTO</b></div></a>
+
+
+	</div>
+
+	<div class="barraceb">
+
+<form name="formulario" method="post" action="procesar-indicencia.php">
+		
+		<fieldset>
+
+			<legend>Indique su incidencia:</legend>
+			<label for="usuario" minlength="6" maxlenght="20">Usuario:</label><br>
+			<input id="usuario" type="text" name="usuario" placeholder="Escriba su Usuario" required="">
+
+			<br>
+			<br>
+
+			<label for="departamento">Consulta:</label><br>
+			<select id="departamento">
+				<option value="Informatica">Informacion</option>
+				<option value="Marketing">Preguntas</option>
+				<option value="Admisiones">Consulta</option>
+				<option value="Direccion y ventas">Usuarios</option>
+			</select>
+
+			<br>
+			<br>
+
+			<label for="descripcion">Descripcion:</label><br>
+			<textarea id="descripcion" rows="4" cols="60" placeholder="Describa lo que va a desear..."></textarea>
+			<br>
+			<br>
+
+			<label for="contraseña">Contraseña:<br>
+			<input id="contraseña" type="password" name="pass" placeholder="Escriba su Contraseña" minlength="6" maxlenght="20" required="" pattern="[A-Za-z0-9]+">
+		</label>
+
+	</fieldset>
+
+		<br><br>
+
+		<fieldset>
+
+			<legend>Enviar y Borrar</legend>
+			<input type="file" name="archivo" accept=".png,.jpg,.pdf" value="Adjuntar archivo" >
+			<input type="submit" value="Enviar">
+			<input type="reset" value="Resetear">
+
+		</fieldset>
+	</form>	
+	</div>
+
+	<div class="barra"></div>
+
+	<div class="menubajo1220">
+		<img class="final" src="Fotos/final.png">
+	</div>
+	<div class="menubajo2220">
+		<img class="instagram" src="Fotos/redes3.PNG">
+	</div>
+</div>	
+
+
+	
+</body>
+</html>
